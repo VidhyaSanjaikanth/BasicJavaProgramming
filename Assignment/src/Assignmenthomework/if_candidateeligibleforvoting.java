@@ -8,8 +8,8 @@ public class if_candidateeligibleforvoting {
 		// Write a program to check if a candidate is eligible for voting or not 
 		
 		int ageforvoting =18;
-		Scanner s1=new Scanner(System.in);
 		System.out.println("Enter your age:");
+        Scanner s1=new Scanner(System.in);
 		int age =s1.nextInt();
 		if(age > ageforvoting)
 		{
